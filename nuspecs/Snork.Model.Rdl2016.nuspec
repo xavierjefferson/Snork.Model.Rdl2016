@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>Snork.Model.Rdl2016</id>
-    <version>1.1.0001</version>
+    <version>1.1.0002</version>
     <authors>Xavier Jefferson</authors>
     <owners>XavierJefferson</owners>
     <license type="expression">LGPL-3.0-or-later</license>
@@ -17,14 +17,14 @@
     <copyright>Copyright © 2021 Xavier Jefferson</copyright>
     <tags>ssrs rdl 2016 rdl2016 schema</tags>
     <dependencies>
-	<group targetFramework=".NETStandard2.1" />
+	<group targetFramework=".NETStandard2.0" />
     </dependencies>
 
 
   </metadata>
   <files>
-    <file src="..\src\Snork.Model.Rdl2016\bin\debug\netstandard2.1\Snork.Model.Rdl2016.dll"
-          target="lib\netstandard2.1" />
+    <file src="..\src\Snork.Model.Rdl2016\bin\debug\netstandard2.0\Snork.Model.Rdl2016.dll"
+          target="lib\netstandard2.0" />
     <file src="..\src\Snork.Model.Rdl2016\**\*.cs;" target="src" exclude="**\obj*\**\*.cs" />
   </files>
 </package>
